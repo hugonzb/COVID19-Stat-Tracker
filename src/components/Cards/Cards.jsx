@@ -16,23 +16,23 @@ const Cards = ({ data: {confirmed, recovered, deaths, lastUpdate} }) => {
                         <Typography color="textSecondary" gutterBottom>Infected</Typography>
                         <Typography variant="h5"><CountUp start={0} end={confirmed.value} duration={3} separate=","/>
                         </Typography>
-                        <Typography color="textSecondary">DATE</Typography>
+                        <Typography color="textSecondary">{new Date(lastUpdate).toDateString()}</Typography>
                         <Typography variant="body2">Number of active cases</Typography>
                     </CardContent>
                 </Grid>
                 <Grid item component ={Card}>
                     <CardContent>
                         <Typography color="textSecondary" gutterBottom>Recovered</Typography>
-                        <Typography variant="h5">DATA</Typography>
-                        <Typography color="textSecondary">DATE</Typography>
+                        <Typography variant="h5"><CountUp start={0} end={recovered.value} duration={3} separate=","/></Typography>
+                        <Typography color="textSecondary">{new Date(lastUpdate).toDateString()}</Typography>
                         <Typography variant="body2">Number of recoveries</Typography>
                     </CardContent>
                 </Grid>
                 <Grid item component ={Card}>
                     <CardContent>
                         <Typography color="textSecondary" gutterBottom>Deaths</Typography>
-                        <Typography variant="h5">DATA</Typography>
-                        <Typography color="textSecondary">DATE</Typography>
+                        <Typography variant="h5"><CountUp start={0} end={deaths.value} duration={3} separate=","/></Typography>
+                        <Typography color="textSecondary">{new Date(lastUpdate).toDateString()}</Typography>
                         <Typography variant="body2">Number of deaths</Typography>
                     </CardContent>
                 </Grid>
