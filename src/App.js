@@ -18,7 +18,7 @@ class App extends React.Component {
         return (
             <div className ={styles.container}>
                 <Cards data={this.state.data}/>
-                <Chart />
+                <Chart data={this.state.data}/>
                 <CountryPicker />
             </div>    
         )
