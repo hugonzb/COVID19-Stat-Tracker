@@ -1,3 +1,3 @@
-You can find the LIVE demo here (updated 28/06): https://hugonzb.github.io/COVID19-Stat-Tracker/
+LIVE Demo Here: https://hugonzb.github.io/COVID19-Stat-Tracker/
 <br><br>
-COVID-19 Data API: https://covid19.mathdro.id/api
+COVID-19 API used to fetch data from: https://covid19.mathdro.id/api
