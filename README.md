@@ -15,14 +15,14 @@ COVID-19 API used to fetch data from: https://covid19.mathdro.id/api
 
 **5. Responsive design.**
 
-<br><br>
+<br>
 ## Run the project in your environment
 
-- Clone the project
-- Install dependencies
+#### Clone the project
+#### Install dependencies
 ### `npm install`
 
-- Run the project
+#### Run the project
 ### `npm start`
 
 Runs the app in the development mode.<br />
