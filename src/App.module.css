@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
 body {
     background-color: rgb(233, 231, 231);
 }
@@ -7,4 +9,12 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.title {
+    margin-top: 2rem;
+    font-weight: bold;
+    font-family: 'Questrial', sans-serif;
+    font-size: 3rem;
+    text-align: center;
 }
