@@ -23,7 +23,7 @@ const CountryPicker = ( {handleCountryChange} ) => {
                         onChange={(text) => handleCountryChange(text)}
                         size='large'
                         width='100%'
-                        placeholder='Search...'
+                        placeholder='Search a country...'
                     />
                     </div>
                     <div className={styles.formControl}>

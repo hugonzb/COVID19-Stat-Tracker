@@ -11,7 +11,8 @@
 }
 
 .card {
-    margin: 0 2% !important;
+    margin: 0 1% !important;
+    width: 20rem;
 }
 
 .icon {
@@ -27,15 +28,15 @@
 }
 
 .infected{
-    border-top: 10px solid blue;
+    border-top: 20px solid blue;
 }
 
 .recovered{
-    border-top: 10px solid green;
+    border-top: 20px solid green;
 }
 
 .deaths{
-    border-top: 10px solid red;
+    border-top: 20px solid red;
 }
 
 @media(max-width: 800px) {
