@@ -17,7 +17,7 @@ export const fetchData = async(country) => {
         }
         return modifiedData;
     }catch(error){
-        console.log(error);
+        return error;
     }
 }
 
