@@ -16,9 +16,12 @@ COVID-19 API used to fetch data from: https://covid19.mathdro.id/api
 **5. Responsive design.**
 
 <br>
-## Run the project in your environment
 
-#### Clone the project
+# Run the project in your environment
+
+#### Clone the project: 
+https://github.com/hugonzb/COVID19-Stat-Tracker.git
+
 #### Install dependencies
 ### `npm install`
 
