@@ -14,19 +14,31 @@
     margin: 0 2% !important;
 }
 
+.icon {
+    margin-bottom: 0.5rem;
+}
+
+.text {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+}
+
 .infected{
-    border-bottom: 10px solid blue;
+    border-top: 10px solid blue;
 }
 
 .recovered{
-    border-bottom: 10px solid green;
+    border-top: 10px solid green;
 }
 
 .deaths{
-    border-bottom: 10px solid red;
+    border-top: 10px solid red;
 }
 
-@media(max-width: 770px) {
+@media(max-width: 800px) {
     .card {
         margin: 2% 0 !important;
     }
