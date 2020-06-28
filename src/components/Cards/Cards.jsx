@@ -6,7 +6,9 @@ import cx from 'classnames';
 
 const Cards = ({ data: {confirmed, recovered, deaths, lastUpdate} }) => {
     if(!confirmed) {
-        return 'Loading Statistics... Please input a correct country name.';
+        return <div className = {styles.loading}>
+                Loading Statistics... Please input a correct country name.
+            </div>
     }
     return (
         <div className={styles.container}>

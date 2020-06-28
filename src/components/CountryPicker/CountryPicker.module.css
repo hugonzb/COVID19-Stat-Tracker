@@ -1,6 +1,7 @@
 .formControl {
     width: 30%;
     min-width: 10rem;
+    margin-bottom: 1rem;
 }
 
 .formContainer {
