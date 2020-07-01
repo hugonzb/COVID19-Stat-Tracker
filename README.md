@@ -1,3 +1,5 @@
+# COVID-19 Statistic Tracker 
+
 [![HitCount](http://hits.dwyl.com/hugonzb/COVID19-Stat-Tracker.svg)](http://hits.dwyl.com/hugonzb/COVID19-Stat-Tracker)
 <br><br>
 ## [LIVE Demo Here!](https://hugonzb.github.io/COVID19-Stat-Tracker/)
