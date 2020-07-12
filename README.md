@@ -8,16 +8,17 @@ COVID-19 API Url: https://covid19.mathdro.id/api
 <br>
 COVID-19 API GitHub w/ use info: https://github.com/mathdroid/covid-19-api
 <br>
-### Features
-**1. Search and filter by countries.**
 
-**2. Tracks number of infected, recovered and deaths.**
+### Features
+**1. Search and filter by any country.**
+
+**2. Tracks number of total infected, recovered and deaths.**
 
 **3. Numbers count up when page is first loaded.**
 
-**4. Uses bar and line graphs to display counts.**
+**4. Uses a Bar and Line graph to display counts.**
 
-**5. Responsive design.**
+**5. Responsive design and mobile-friendly.**
 <br>
 
 # Run the project in your environment
