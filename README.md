@@ -9,7 +9,7 @@ COVID-19 API Url: https://covid19.mathdro.id/api
 COVID-19 API GitHub w/ use info: https://github.com/mathdroid/covid-19-api
 <br>
 
-### Features
+## Features
 **1. Search and filter by any country.**
 
 **2. Tracks number of total infected, recovered and deaths.**
@@ -21,7 +21,7 @@ COVID-19 API GitHub w/ use info: https://github.com/mathdroid/covid-19-api
 **5. Responsive design and mobile-friendly.**
 <br>
 
-# Run the project in your environment
+## Run the project in your environment
 
 #### Clone the project: 
 https://github.com/hugonzb/COVID19-Stat-Tracker.git
