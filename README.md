@@ -4,8 +4,9 @@
 <br><br>
 ## [LIVE Demo Here!](https://hugonzb.github.io/COVID19-Stat-Tracker/)
 <br><br>
-COVID-19 API used to fetch data from: https://covid19.mathdro.id/api
-API GitHub: https://github.com/mathdroid/covid-19-api
+COVID-19 API Url: https://covid19.mathdro.id/api
+<br>
+COVID-19 API GitHub w/ use info: https://github.com/mathdroid/covid-19-api
 <br>
 ### Features
 **1. Search and filter by countries.**
