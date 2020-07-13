@@ -45,6 +45,7 @@ const Chart = ({ data: {confirmed, recovered, deaths}, country }) => {
                     ],
                     data: [confirmed.value, recovered.value, deaths.value]
                     }]}}
+                // eslint-disable-next-line
                 options={{legend:{display: false, title:{display:true, text:'Displaying chart for ${country}'}}}}
             
             />

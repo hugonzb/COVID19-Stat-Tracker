@@ -20,7 +20,7 @@ const Cards = ({ data: {confirmed, recovered, deaths, lastUpdate} }) => {
                         <div className={styles.text}>
                             <div className={styles.icon}><FontAwesomeIcon icon={faVirus} size="3x"/></div>
                             <Typography color="textSecondary" gutterBottom>Infected</Typography>
-                            <Typography variant="h5"><CountUp start={0} end={confirmed.value} duration={3} separator=","/></Typography>
+                            <Typography variant="h5"><CountUp start={0} end={confirmed.value} duration={5} separator=","/></Typography>
                             <Typography color="textSecondary">{new Date(lastUpdate).toDateString()}</Typography>
                             <br></br>
                             <Typography variant="body2"><b>Number of Total Infections</b></Typography>
@@ -32,7 +32,7 @@ const Cards = ({ data: {confirmed, recovered, deaths, lastUpdate} }) => {
                         <div className={styles.text}>
                             <div className={styles.icon}><FontAwesomeIcon icon={faHeart} size="3x"/></div>
                             <Typography color="textSecondary" gutterBottom>Recovered</Typography>
-                            <div className={styles.count}><Typography variant="h5"><CountUp start={0} end={recovered.value} duration={3} separator=","/></Typography></div>
+                            <div className={styles.count}><Typography variant="h5"><CountUp start={0} end={recovered.value} duration={5} separator=","/></Typography></div>
                             <Typography color="textSecondary">{new Date(lastUpdate).toDateString()}</Typography>
                             <br></br>
                             <Typography variant="body2"><b>Number of Recoveries</b></Typography>
@@ -44,7 +44,7 @@ const Cards = ({ data: {confirmed, recovered, deaths, lastUpdate} }) => {
                         <div className={styles.text}>
                             <div className={styles.icon}><FontAwesomeIcon icon={faSkull} size="3x"/></div>
                             <Typography color="textSecondary" gutterBottom>Deaths</Typography>
-                            <Typography variant="h5"><CountUp start={0} end={deaths.value} duration={3} separator=","/></Typography>
+                            <Typography variant="h5"><CountUp start={0} end={deaths.value} duration={5} separator=","/></Typography>
                             <Typography color="textSecondary">{new Date(lastUpdate).toDateString()}</Typography>
                             <br></br>
                             <Typography variant="body2"><b>Number of Deaths</b></Typography>

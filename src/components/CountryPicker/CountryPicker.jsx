@@ -6,6 +6,7 @@ import styles from './CountryPicker.module.css';
 import { fetchCountries } from '../../api';
 
 const CountryPicker = ( {handleCountryChange} ) => {
+    // eslint-disable-next-line
     const [fetchedCountries, setFetchedCountries] = useState([]);
     useEffect(() => {
         const fetchApi = async() => {
